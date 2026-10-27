@@ -2,11 +2,7 @@ import { SearchIcon } from '@chakra-ui/icons';
 import { Flex, Input, InputGroup, InputLeftElement } from '@chakra-ui/react';
 import React from 'react';
 
-type searchInputProps = {
-    // user
-};
-
-const searchInput: React.FC<searchInputProps> = () => {
+const searchInput: React.FC = () => {
 
     return (
         <Flex
